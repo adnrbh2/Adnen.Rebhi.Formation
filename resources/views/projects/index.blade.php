@@ -21,11 +21,11 @@
 
                 <div class="input-group">
                     <span class="input-group-btn mr-5 mt-1">
-                        <button class="btn btn-info" type="submit" title="Search projects">
+                        <button class="btn btn-info" type="submit" title="Search Article">
                             <span class="fas fa-search"></span>
                         </button>
                     </span>
-                    <input type="text" class="form-control mr-2" name="term" placeholder="Search projects" id="term">
+                    <input type="text" class="form-control mr-2" name="term" placeholder="Search Articles" id="term">
                     <a href="{{ route('projects.index') }}" class=" mt-1">
                         <span class="input-group-btn">
                             <button class="btn btn-danger" type="button" title="Refresh page">
