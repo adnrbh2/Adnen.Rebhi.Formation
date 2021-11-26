@@ -32,8 +32,7 @@ class StoreArticleRequest extends FormRequest
     }
 
     /**
- * Return validation errors as json response
- *
+ 
  * @param Validator $validator
  */
 protected function failedValidation(Validator $validator)
